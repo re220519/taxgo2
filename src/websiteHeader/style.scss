@@ -1,0 +1,191 @@
+.homeScreen-Box1 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .homeScreen-Box2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .NavbarContainer {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px; /* Adjust the height as needed */
+    z-index: 2; /* Ensure Navbar is above the image */
+  }
+  .ImageContainer {
+    width: 100% ;
+    position: relative; /* Add this line */
+  }
+  
+  .homeScreen-Box3 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+  }
+  
+  .homeScreen-Box4 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeScreen-Box5 {
+    width: 550px;
+    height: 380px;
+   
+  }
+  .homeScreen-Box6 {
+    width: 100%;
+   height: 80px;
+  }
+  .homeScreen-Box7 {
+    display: flex;
+    width: 400px;
+    height: 100px;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .homeScreen-Box10 {
+    width: 100%;
+    height: 15vh;
+  }
+  
+  .homeScreen-carousalImg {
+    height: 100vh;
+    width: 100%;
+   
+    object-fit: cover;
+  }
+  .homeScreen-Txt1 {
+    color: white;
+    text-align: left;
+   
+    width: 100%;
+    height: 210px;
+  }
+  .homeScreen-Txt2 {
+    color: black;
+    height: 195px;
+    font-size: 32px;
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 800;
+   width: 100%;
+    text-align: left;
+
+  }
+  .homeScreen-Box8 {
+    background-color: #34B628;
+    height: 44px;
+    width: 165px;
+    border-radius: 6px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .homeScreen-Box9 {
+    height: 44px;
+    width: 165px;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 16px;
+  }
+  .img-fluid{
+    width: 70%;
+    height: 230px;
+   
+  }
+  @media screen and (min-width: 900px) { 
+    .homeScreen-Txt3{
+        display: none;
+    }
+    .homeScreen-carousalImg1 {
+        display: none;
+    }
+  }
+
+ @media (min-width: 522px) and (max-width:900px) { 
+    .homeScreen-Txt3 {
+        color: black;
+    height: 70px;
+    font-size: 25px;
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 700;
+   width: 100%;
+    text-align: left;
+        
+    
+      }
+      .homeScreen-Box5 {
+        width: 390px;
+        height: 290px;
+       
+      }
+      .homeScreen-Box6 {
+        width: 100%;
+       height: 80px;
+      }
+.homeScreen-Txt2 {
+ display: none;
+      }
+.homeScreen-Txt1 {
+       height: 120px;
+      }
+      .img-fluid{
+        padding: 30px 0px 0px 0px;
+        width: 50%;
+        height: 100px;
+       
+      }   
+      .homeScreen-Box7 {
+      
+        width: 300px;
+        height: 70px;
+       
+      }  
+      .homeScreen-Box8 {
+      
+        height: 34px;
+        width: 135px;
+        border-radius: 6px;
+       
+       
+        font-weight: 500;
+        font-size: 16px;
+      } 
+      .homeScreen-carousalImg1 {
+        display: none;
+    }   
+    }
+    @media screen and (max-width: 522px) {
+       .homeScreen-carousalImg{
+        display: none;
+       }
+       .ImageContainer {
+        width: 100% ;
+        position: relative; /* Add this line */
+      } 
+       .homeScreen-carousalImg1{
+        height: 100vh;
+        width: 100%;
+       
+        object-fit: cover;
+       }
+    }
