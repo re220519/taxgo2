@@ -1,12 +1,12 @@
 .homeScreen-Box1 {
     width: 100%;
-    height: 100vh;
+    height: 700px;
     position: relative;
   }
   
   .homeScreen-Box2 {
     width: 100%;
-    height: 100%;
+    height: 700px;
     position: relative;
   }
   
@@ -21,31 +21,35 @@
   }
   .ImageContainer {
     width: 100% ;
-    position: relative; /* Add this line */
+    position: relative;
+    /* Add this line */
   }
   
   .homeScreen-Box3 {
     width: 100%;
-    height: 100%;
+    height: 700px;
     position: absolute;
     top: 0;
+    
   }
   
   .homeScreen-Box4 {
     width: 70%;
-    height: 100%;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
+   
   }
   .homeScreen-Box5 {
     width: 550px;
-    height: 380px;
-   
+    height: 350px;
+  
   }
   .homeScreen-Box6 {
     width: 100%;
    height: 80px;
+   
   }
   .homeScreen-Box7 {
     display: flex;
@@ -53,6 +57,7 @@
     height: 100px;
     justify-content: space-between;
     text-align: left;
+   
   }
   .homeScreen-Box10 {
     width: 100%;
@@ -60,7 +65,7 @@
   }
   
   .homeScreen-carousalImg {
-    height: 100vh;
+    height: 800px;
     width: 100%;
    
     object-fit: cover;
@@ -93,7 +98,7 @@
     font-weight: 500;
     font-size: 16px;
   }
-  .homeScreen-Box9 {
+  /*.homeScreen-Box9 {
     height: 44px;
     width: 165px;
     border-radius: 4px;
@@ -106,13 +111,16 @@
     align-items: center;
     justify-content: space-evenly;
     font-size: 16px;
-  }
+  }*/
   .img-fluid{
     width: 70%;
     height: 230px;
    
   }
   @media screen and (min-width: 900px) { 
+    .homeScreen1{
+        display: none;
+    }
     .homeScreen-Txt3{
         display: none;
     }
@@ -121,7 +129,27 @@
     }
   }
 
- @media (min-width: 522px) and (max-width:900px) { 
+ @media (min-width: 700px) and (max-width:900px) { 
+    .homeScreen1{
+        display: none;
+
+    }
+    .homeScreen-Box1{
+        width: 100%;
+        height: 500px;
+    }
+    .homeScreen-carousalImg{
+        width: 100%;
+        height: 500px;
+    }
+    .homeScreen-Box3{
+        width: 100%;
+        height: 500px;
+    }
+    .homeScreen-Box4{
+        width: 70%;
+        height: 500px;
+    }
     .homeScreen-Txt3 {
         color: black;
     height: 70px;
@@ -160,7 +188,7 @@
         height: 70px;
        
       }  
-      .homeScreen-Box8 {
+      /*.homeScreen-Box8 {
       
         height: 34px;
         width: 135px;
@@ -169,23 +197,210 @@
        
         font-weight: 500;
         font-size: 16px;
-      } 
+      } */
       .homeScreen-carousalImg1 {
         display: none;
     }   
     }
+    @media (min-width: 522px) and (max-width:700px) { 
+        .homeScreen1{
+            display: none;
+    
+        }
+        .homeScreen-Box1{
+            width: 100%;
+            height: 500px;
+        }
+        .homeScreen-carousalImg{
+            width: 100%;
+            height: 500px;
+        }
+        .homeScreen-Box3{
+            width: 100%;
+            height: 500px;
+        }
+        .homeScreen-Box4{
+            width: 90%;
+            height: 500px;
+        }
+        .homeScreen-Txt3 {
+            color: black;
+        height: 70px;
+        font-size: 25px;
+        font-family:  'Montserrat', sans-serif;
+        font-weight: 700;
+       width: 100%;
+        text-align: left;
+            
+        
+          }
+          .homeScreen-Box5 {
+            width: 390px;
+            height: 290px;
+           
+          }
+          .homeScreen-Box6 {
+            width: 100%;
+           height: 80px;
+          }
+    .homeScreen-Txt2 {
+     display: none;
+          }
+    .homeScreen-Txt1 {
+           height: 120px;
+          }
+          .img-fluid{
+            padding: 30px 0px 0px 0px;
+            width: 50%;
+            height: 100px;
+           
+          }   
+          .homeScreen-Box7 {
+          
+            width: 300px;
+            height: 70px;
+           
+          }  
+          .homeScreen-Box8 {
+          
+            height: 34px;
+            width: 135px;
+            border-radius: 6px;
+           
+           
+            font-weight: 500;
+            font-size: 16px;
+          } 
+          .homeScreen-carousalImg1 {
+            display: none;
+        }   
+        }
     @media screen and (max-width: 522px) {
-       .homeScreen-carousalImg{
+      /* .homeScreen-carousalImg{
         display: none;
        }
        .ImageContainer {
         width: 100% ;
         position: relative; /* Add this line */
-      } 
-       .homeScreen-carousalImg1{
+    /*  } 
+    /*.homeScreen-carousalImg1{
         height: 100vh;
         width: 100%;
        
         object-fit: cover;
+       } 
+       */
+       .homeScreen-Box1{
+        display: none;
        }
+       .homeScreen{
+        width: 100%;
+        height: 400px;
+        position: relative;
+       }
+       .NavbarContainer {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 70px; /* Adjust the height as needed */
+        z-index: 2; /* Ensure Navbar is above the image */
+      }
+       .imagecontainer{
+        width: 100% ;
+    position: relative;
+       }
+       .homeScreen-carousalImg1 {
+        height: 400px;
+        width: 100%;
+       object-fit: cover;
+      }
+      .homeScreen-Txt4{
+        color: black;
+        height: 105px;
+        font-size: 25px;
+        font-family:  'Montserrat', sans-serif;
+        font-weight:600;
+       width: 100%;
+        text-align: center;
+      align-items: center;
+      }
+      .welcome{
+        color: #34B628;
+        text-align: center;
+        width: 100%;
+        font-size: 16px;
+        font-weight: 600;
+      }
+      .homeScreen3{
+        width: 100%;
+        height: 350px;
+        position: absolute;
+        top: 0;
+        
+        
+      }
+      .homeScreen4{
+        width: 100%;
+        height: 260px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .homeScreen5{
+        width: 70%;
+        height: 130px;
+       
+       
+      }
+      .homeScreen6{
+        width: 100%;
+        height: 80%;
+   justify-content: center;
+        
+        }
+    .we{
+ width:100%;
+ height: 150px;
+ background-color: aqua;
+ }
+ .mobileWe{
+    width: 100%;
+    height: 150px;
+   line-height: 2;
+   background-color: azure;
+ }
+ .first{
+    width: 100%;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+ }
+ .second{
+    width: 100%;
+    font-size: 15px;
+    line-height: 1;
+ }
+ .third{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    padding: 7px 0px 0px 0px;
+ }
+ .contact{
+    background-color: #34B628;
+    height: 44px;
+    width: 80%;
+    border-radius: 6px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+line-height: 1;
+ }
     }

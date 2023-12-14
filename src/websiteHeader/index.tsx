@@ -20,7 +20,7 @@ function WebsiteHeader() {
             </div>
             <div className="ImageContainer">
             <img className="homeScreen-carousalImg" src={header} alt="" />
-            <img className="homeScreen-carousalImg1" src={header1} alt="" /></div>
+            </div>
         <div className="homeScreen-Box3">
           
           <div className="homeScreen-Box4">
@@ -49,10 +49,43 @@ function WebsiteHeader() {
               </div>
             </div>
           </div>
-          <div className="homeScreen-Box10"></div>
+          
         </div>
       </div>
      {/* <WebsiteFooter /> */}
+     </div>
+     <div className='homeScreen1'>
+        <div className='homeScreen2'>
+            <div className='NavbarContainer'>
+               <Navbar />
+            </div>
+            <div className='imagecontainer'>
+            <img className='homeScreen-carousalImg1' src={header1} alt=" "/>
+            </div>
+            <div className='homeScreen3'>
+                <div className='homeScreen4'>
+                    <div className='homeScreen5'>
+                    <div className='homeScreen6'>
+                      <div className='welcome'>WELCOME TO Tax GO ACCOUNTING </div>
+                      <div className="homeScreen-Txt4">
+                Simple, Best & Affordable <br />
+                 Accounting Software<br /> Solution
+                </div> 
+                </div>
+                    </div>
+                </div>
+            </div>
+            <div className='we'>
+                <div className='mobileWe'>
+                    <div className='first'>WE ADVICE BUSINESS </div>
+                    <div className='second'>Expert Financial Advice <br />and Consultancy</div>
+                   <div className='third'>
+                   <button className='contact'>Contact Us</button>
+                   </div>
+                    
+                </div>
+            </div>
+        </div>
      </div>
         </>
   );
