@@ -1,0 +1,335 @@
+.featurecontainer1{
+    width: 100%;
+    height: 850px;
+    
+}
+.featurecontainer2{
+    width: 100%;
+    height: 800px;
+   
+}
+.featureheader{
+   width: 100%; 
+   height: 80px;
+   color: green;
+   font-size: 40px;
+   font-weight: 800;
+   
+  text-align: center;
+  padding: 30px 0px 0px 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+.cardd{
+    width: 100%;
+    height: 550px;
+ 
+ 
+ display: flex;
+ justify-content: center; /* Center horizontally */
+ align-items: center;  
+}
+.cardcontainer{
+    width: 80%;
+    height: 550px;
+ 
+  display: flex;
+ 
+  justify-content: space-between;
+ gap: 15px;
+   }
+/*.card img{
+   
+    width: 150px;
+    height: 200px;
+   }*/
+   .card {
+    width: 100%;
+    height: 500px;
+    flex: 1; /* Take up equal space within .cardcontainer */
+    overflow: hidden; /* Ensure images don't overflow */
+    box-sizing: border-box; 
+    /* Include padding and border in the total width and height */
+  }
+  
+  .card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover; /* Maintain aspect ratio, cover entire container */
+  }
+  .text{
+    width: 100%;
+   height: 40px;
+    color: green;
+    font-size: 17px;
+    font-weight: 700;
+    font-family:  'Montserrat', sans-serif;
+  }
+  .text3{
+    width: 100%;
+    height: 40px;
+  }
+  .text1{
+    width: 100%;
+    height: 250px;
+    
+  }
+  .text2{
+    width: 100%;
+    height: 210px;
+    color: black;
+    font-size: 13px;
+    font-weight: 300;
+   
+    font-family:  'Montserrat', sans-serif;
+  }
+  .textt{
+    width: 100%;
+    height: 210px;
+  }
+  .featurebutton{
+   align-items: center;
+   padding: 20px 0px 20px 0px;
+  }
+  .featurebutton1{
+    background-color: #34B628;
+    height: 44px;
+    width: 165px;
+    border-radius: 6px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  @media screen and (min-width: 900px){
+    .cardcontainerr{
+     display: none;
+    }
+    .mobcontainer{
+      display: none;
+    }
+    
+  }
+  @media (min-width: 522px) and (max-width:900px) { 
+    .mobcontainer{
+      display: none;
+    }
+    .featurecontainer1{
+     
+      width: 100%;
+      height: 850px;
+      
+  }
+  .featurecontainer2{
+      width: 100%;
+      height: 850px;
+    
+  }  
+  .featureheader{
+    width: 100%; 
+    height: 20px;
+    color: green;
+    font-size: 30px;
+    font-weight: 800;
+    
+   text-align: center;
+   padding: 30px 0px 0px 0px;
+   font-family: 'Montserrat', sans-serif;
+ }
+ .cardd{
+     width: 100%;
+     height: 750px;
+  
+  
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;  
+ }
+.cardcontainer{
+  display: none;
+}
+.cardcontainerr{
+  width: 80%;
+  height: 600px;
+
+
+
+ }
+ .cardcontainerrr{
+  width: 100%;
+  display: flex;
+
+  justify-content: space-between;
+  gap: 15px;
+ }
+ .cardm {
+ 
+  width: 100%;
+  height: 300px;
+  flex: 1; /* Take up equal space within .cardcontainer */
+  overflow: hidden; /* Ensure images don't overflow */
+  box-sizing: border-box; 
+  /* Include padding and border in the total width and height */
+}
+
+.cardm img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover; /* Maintain aspect ratio, cover entire container */
+}
+.textm{
+  width: 100%;
+ height: 20px;
+  color: green;
+  font-size: 13px;
+  font-weight: 700;
+  font-family:  'Montserrat', sans-serif;
+}
+.text3m{
+  width: 100%;
+  height: 20px;
+}
+.text1m{
+  width: 100%;
+  height: 150px;
+  
+}
+.text2m{
+  width: 100%;
+  height: 130px;
+  color: black;
+  font-size: 13px;
+  font-weight: 300;
+ 
+  font-family:  'Montserrat', sans-serif;
+}
+.texttm  {
+  width: 100%;
+  height: 120px;
+ 
+}
+.featurebutton{
+ align-items: center;
+ padding: 0px 0px 0px 0px;
+}
+.featurebutton1{
+  background-color: #34B628;
+  height: 44px;
+  width: 165px;
+  border-radius: 6px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+}
+.cardtab{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+  }
+  @media screen and (max-width: 522px){
+   .featurecontainer1{
+    display: none;
+   } 
+.mobcontainer{
+  width: 100%;
+  height: 600px;
+}
+.mobcontainer1{
+  width:100%;
+  height: 600px;
+}
+.mobheader{
+  width: 100%; 
+   height: 80px;
+   color: green;
+   font-size: 40px;
+   font-weight: 800;
+   
+  text-align: center;
+  padding: 30px 0px 0px 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+.featurebuton{
+  align-items: center;
+  padding: 20px 0px 20px 0px;
+ }
+ .featurebuton1{
+   background-color: #34B628;
+   height: 44px;
+   width: 165px;
+   border-radius: 6px;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   font-weight: 500;
+   font-size: 16px;
+ }
+ .mobcard{
+  width: 100%;
+  height: 500px;
+
+
+display: flex;
+justify-content: center; /* Center horizontally */
+align-items: center;  
+ }
+ .mobcard1{
+  width: 80%;
+  height: 500px;
+
+
+ }
+ .cardm1{
+  width: 100%;
+  height: 250px;
+  flex: 1;/* Take up equal space within .cardcontainer */
+  overflow: hidden; /* Ensure images don't overflow */
+  box-sizing: border-box;
+ 
+ }
+ .cardm1 img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+ 
+ 
+   /* Maintain aspect ratio, cover entire container */
+}
+.text1t{
+  width: 100%;
+  height: 100px;
+ 
+}
+.text3t{
+  width: 100%;
+  height: 10px;
+ 
+  
+}
+.texst{
+  width: 100%;
+  height: 10px;
+  font-size: 11px;
+  color: #34B628;
+  
+ 
+}
+.text2t{
+ 
+  width: 100%;
+  height: 90px;
+  color: black;
+  font-size: 10px;
+  font-weight: 300;
+ 
+  font-family:  'Montserrat', sans-serif;
+}
+.texttt  {
+  width: 100%;
+  height: 90px;
+ 
+}
+  }

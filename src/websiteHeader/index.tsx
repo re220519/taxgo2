@@ -4,6 +4,7 @@ import header from '../asset/header.jpg';
 import header1 from '../asset/header1.jpg';
 import './style.scss';
 import taxgologo from '../asset/taxgo logo.png';
+
 /*import logomobile  from '../asset/logomobile.png';*/
 function WebsiteHeader() {
   return (
