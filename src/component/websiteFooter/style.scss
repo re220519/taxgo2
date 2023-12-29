@@ -1,0 +1,489 @@
+
+
+
+.websiteFootercontainer{
+    width: 100%;
+    height: 370px;
+    
+    
+    background-color: #25363F;
+}
+.footerfirst{
+   width: 80%; 
+   height: 300px;
+   padding: 0px 60px 0px 60px;
+   
+   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.footersecond{
+    width:100%;
+}
+.hr{
+    border-color : white;
+}
+.footerfirstrow{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+ 
+}
+.footerfirstcolumn1 img{
+    width: 60%;
+    height: 90px;
+}
+.footerfirstcolumn1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   color: white;
+   height: 120px;
+   align-items: center;
+}
+.footerfirstcolumn2{
+    width: 100%;
+    height: 60px;
+}
+.footersecondrow{
+  width: 100%;
+
+height: 180px;
+margin-bottom: 1.5%;
+
+}
+.mob1{
+  justify-content: center;
+   color: #FFBC49;
+   padding : 0px 15px 0px 0px;
+   font-size: 14px;
+}
+.email1{
+    justify-content: center;
+    color: #FFBC49;
+    padding: 0px 0px 0px 0px;
+    font-size: 14px;
+}
+.email2{
+font-size: 14px;
+font-family: Montsserat;
+}
+.producT,.abouT{
+    width: 100%;
+    color: #FFBC49;
+    font-family: Montsserat;
+    font-size: 13px;
+}
+.footerthirdrow{
+ width: 100%;
+
+height: 200px;
+}
+.footermobile{
+width: 80%;
+height: 35px;
+display: flex;
+justify-content: center;
+padding: 0px 0px 0px 20px;
+}
+.footermail{
+    width: 80%;
+    height: 35px;
+    display: flex;
+    justify-content: right;
+   
+   padding: 0px 0px 0px 45px;
+}
+.mob2{
+   font-size: 14px;
+    color: white;
+    
+}
+.email2{
+    width: 100%;
+    color: white;
+    font-family: Montsserat;
+}
+.footerfourthrow{
+    width: 100%;
+  
+    height: 190px;
+}
+.fotermobile{
+    width: 100%;
+    align-items: right;
+    justify-content: right;
+}
+.fotermail{
+    width: 100%;
+    align-items: center;
+}
+.tax{
+    width: 100%;
+   line-height: 2.1;
+   color: white;
+   font-size: 14px;
+   font-family: Montsserat;
+}
+.company{
+    width: 100%;
+   line-height: 2;
+   color: white;
+   font-size: 14px;
+   font-family: Montsserat;
+}
+.download{
+    width: 100%;
+    height: 90px;
+    
+    
+   
+}
+.appp{
+    width: 100%;
+    padding: 20px 0px 0px 35px;
+    font-size: 13px;
+   color: #FFBC49;
+   font-family: Montsserat;
+   font-weight: 400;
+   text-align: left;
+}
+.find{
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    font-size: 13px;
+    color: #FFBC49;
+    font-family: Montserrat;
+font-weight: 400;
+}
+.sclmda{
+    width: 100%;
+    height: 85px;
+   
+}
+.appiimg {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 0px 0px;
+ 
+}
+.scl{
+    width: 100%;
+    padding: 20px 0px 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Montsserat;
+}
+.image22,.image33{
+    width: 100%;
+    padding: 15px 0px 0px 34px;
+}
+.iimg {
+  width: 90%;
+   height: 27px;
+   padding: 0px 0px 0px 2px;
+   
+}
+.footerthird{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 1px;
+   
+}
+.copywrite{
+    width: 100%;
+    font-size: 16px;
+    color: white; 
+    font-family: Montserrat;
+    padding: 15px 0px 0px 0px;
+}
+.copywrite span{
+    text-decoration: underline;
+}
+@media screen and (min-width: 900px) {
+.footertabcontainer{
+    display: none;
+}
+.footercontainermob{
+    display: none;
+}
+}
+@media (min-width: 522px) and (max-width:900px) { 
+    .websiteFootercontainer{ 
+        display: none;
+    }
+    .footercontainermob{
+        display: none;
+    }
+    .footertabcontainer{
+        width: 100%;
+        height: 460px;
+        background-color: #25363F;
+        align-items: center;
+       justify-content: center;
+       
+    }
+    .footertab1{
+      width: 100%;  
+      display: flex;
+justify-content: center;
+    }
+    .footertabb1{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 0px 0px 0px;
+       
+    }
+    .fter1{
+        width: 100%;
+        height: 230px;
+        text-align: left;
+        padding: 0px 0px 0px 0px;
+    }
+    .imgtaxgo {
+        width: 100%;
+        height: 200px;
+    }
+    .fter2{
+        padding: 0px 0px 0px 0px;
+        width: 100%;
+        height: 230px;
+        
+    }
+    .findus{
+width: 100%;
+height: 20px;
+
+padding: 20px 0px 0px 0px;
+font-size: 14px;
+color: #FFBC49;
+font-family: Montserrat;
+font-weight: 400;
+    }
+    .SL{
+width: 100%;
+height: 20px;
+display: flex;
+gap : 25px;
+justify-content: center;
+    }
+.DOWNLOAD{
+    width: 100%;
+    height: 100px;
+    padding: 20px 0px 0px 0px;
+}
+
+.apppiimg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.footertab2{
+    width: 100%;
+    height: 180px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.ftertab2{
+   width: 90%;
+   display: flex;
+   justify-content: space-around;
+}
+.footertab22{
+    width: 100%;
+    height: 180px;
+   
+}
+.footertab33{
+    width: 100%;
+    height: 160px;
+   
+}
+.footertab44{
+    width: 100%;
+    height: 70px;
+   
+}
+.producT{
+    width: 100%;
+    font-size: 12px;
+    color: #FF950B;
+    height: 20px;
+}
+.abot{
+    width: 100%;
+    font-size: 12px;
+    color: #FF950B;
+    height: 20px;
+    font-family: Montsserat;
+}
+.reach{
+    width: 100%;
+    font-size: 12px;
+    color: #FF950B;
+   height: 20px;
+   font-family: Montsserat;
+}
+.taxx{
+    width: 100%;
+    height: 160px;
+    font-size: 14px;
+    color: white;
+    font-family: Montsserat;
+ line-height: 2.2;
+}
+.companyy{
+    width: 100%;
+    font-size: 14px;
+    color: white;
+    line-height: 1.7;
+    font-family: Montsserat;
+}
+.terms{
+    width: 100%;
+    font-size: 14px;
+    color: white;
+    line-height: 1.7;
+   height: 30px;
+   font-family: Montsserat;
+}
+.footerthird{
+    background-color:#FFBC49; 
+}
+.copywrite{
+    width: 100%;
+    font-size: 16px;
+}
+.copywrite span{
+    text-decoration: underline;
+}
+}
+@media screen and (max-width: 522px) {
+    .websiteFootercontainer{
+        display: none;
+    }
+    .footertabcontainer{
+        display: none;
+    }
+    .footercontainermob{
+width: 100%;
+height: 420px;
+background-color: #25363F;
+
+    }
+    .footercontainermob1{
+     width: 100%;
+     height: 410px;
+     background-color: #25363F;
+     display: flex;
+
+justify-content: center;
+     
+    }
+    .footercontainermob2{
+        width: 80%;
+        height: 410px;
+       }
+       .ftermob1{
+        width: 100%;
+        height: 120px;
+       }
+     .DOWNLOADmob{
+        width: 100%;
+        height: 50px;
+        padding: 20px 0px 0px 0px;
+
+     }  
+     .apppiimgmob{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+     }
+     .image222 img{
+        width: 100%;
+     }
+     .image333 img{
+        width: 100%;
+     }
+     .Sl{
+        width: 100%;
+height: 20px;
+display: flex;
+gap : 25px;
+justify-content: space-around;
+
+     }
+.pro{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: space-around;
+     }
+     .proo{
+        width: 100%;
+        height: 30px;
+        display: flex;
+        justify-content: space-around;
+       
+     }
+     
+     .producTT{
+width: 100%;
+font-size: 13px;
+color: #FFBC49;
+font-weight: 500;
+line-height: 2.1;
+font-family: Montsserat;
+     }
+     .abott{
+width: 100%;
+font-size: 13px;
+color: #FFBC49;
+font-weight: 500;
+line-height: 2.1;
+font-family: Montsserat;
+     }
+     .comppanyy{
+width: 100%;
+height: 110px;
+color: white;
+font-size: 12px;
+line-height: 1.9;
+
+font-family: Montsserat;
+     }
+     .taxxx{
+width: 100%;
+
+height: 120px;
+color: white;
+line-height: 1.9;
+font-size: 12px;
+font-family: Montsserat;
+     }
+     .footerthirdd{
+        width: 100%;
+        background-color: #FFBC49;
+        display: flex;
+        justify-content: center;
+     }
+     .copywritee{
+        width: 90%;
+        font-family: Montsserat;
+        color: black;
+        font-size: 15px;
+        height: 50px;
+     }
+     .copywritee span{
+        text-decoration:  underline;
+     }
+}

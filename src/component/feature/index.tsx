@@ -7,7 +7,9 @@ import third from "../../asset/third.png";
 import fourth from "../../asset/fourth.png";
 
 
+
 function Feature() {
+  const { Meta } = Card;
   return (
    <>
    <div className='featurecontainer1'>
@@ -17,7 +19,7 @@ function Feature() {
             <div className='cardcontainer'>
              
             <Card className='card' 
-               cover={<img alt="example" src={first} />}>
+               cover={<img alt="example"   src={first} />}>
                 <div className='text1'>
                 <div className='text3'>
                 <h1 className='text'>Global Access
@@ -113,7 +115,9 @@ function Feature() {
                  </div></div>
             </Card>
             </div>
+            
             </div>
+            
             </div>
            
         <div className='featurebutton'>
@@ -175,11 +179,65 @@ function Feature() {
                  
             </Card>
       </div>
+      
     </div>
     <div className='featurebuton'>
          <button className='featurebuton1'>Get Started</button>
        </div>
   </div>
+   </div>
+   <div className='FEATURE'>
+      <div className='FEATURE2'>
+         <div className='FEATUREHEADER'> Our Features </div>
+      </div>
+      <div className='META'>
+         <div className='META1'>
+         <div className='meta1'>
+         <Card
+    hoverable
+    style={{ width: '100%', border: 'none' }}
+    cover={<img alt="example" src={first} style={{ maxWidth: '100%', height: 'auto' }} />}
+  >
+    <Meta title={<span className="greenTitle">Global Access</span>} description="Cloud Based Accounting Software enables access to your and your client accounts anywhere and anytime.
+" />
+  </Card>
+         </div>
+         <div className='meta1'>
+         <Card
+    hoverable
+    style={{ width: '100%', border: 'none' }}
+    cover={<img alt="example" src={second} style={{ maxWidth: '100%', height: 'auto' }}/>}
+  >
+    <Meta title={<span className="greenTitle">Accounting Solution</span>} description="Tax GO Accounting Software manage invoices, customers, suppliers, banking and prepare reports on the GO."
+ />
+  </Card>
+           </div>
+           <div className='meta1'>
+         <Card
+    hoverable
+    style={{ width: '100%', border: 'none' }}
+    cover={<img alt="example" src={third}  style={{ maxWidth: '100%', height: 'auto' }}/>}
+  >
+   <Meta title={<span className="greenTitle">General Consultancy</span>} description="24/7 Consultancy support from Tax GO Accounting and software experts to help engage your business and save your time."
+ />
+  </Card>
+           </div> 
+           <div className='meta1'>
+         <Card
+    hoverable
+    style={{ width: '100%', border: 'none' }}
+    cover={<img alt="example" src={second} style={{ maxWidth: '100%', height: 'auto' }}/>}
+  >
+    <Meta title={<span className="greenTitle">Regulated and Legislated</span>} description="Stay up to date with the latest legislation for tax, accounting, and payroll. Call us today to start managing your business.
+"
+ />
+  </Card>
+           </div>        
+           </div>
+      </div>
+      <div className='FEATUREBUTON'>
+         <button className='start'> Get Started</button>
+      </div>
    </div>
    </>
   )

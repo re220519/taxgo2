@@ -1,0 +1,371 @@
+.contact{
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+.contact1st{
+    width: 100%;
+    height: 550px;
+    
+}
+.contact2nd{
+    width:100%;
+  background-color: #f5f5f5;
+   display: flex;
+ justify-content: center;
+   height: 550px;
+}
+.contact1st img{
+    width: 100%;
+    height: 550px;
+}
+.contact2ndd{
+   width: 80%;
+   height: 450px;
+  
+ margin: 80px 30px;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+   text-align: center;
+}
+.contactheader{
+    width: 100%;
+    height: 170px;
+
+    
+}
+.contactfooter{
+    width: 100%;
+    height: 190px;
+   
+}
+.contactheader1{
+    width: 100%;
+    font-size: 26px;
+    font-weight: 450;
+    height: 60px;
+}
+.contactheader2{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 450;
+    height: 60px;
+}
+.contactfooter1{
+    width: 100%;
+    font-size: 26px;
+    font-weight: 450;
+    height: 60px;
+}
+.contactfooter2{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 450;
+    height: 60px;
+}
+.contactfooter3{
+    width: 100%;
+    height: 50px;
+}
+.contactmidle{
+ align-items: center;
+}
+.conttbutton{
+    background-color: #34B628;
+    height: 44px;
+    width: 165px;
+    border-radius: 6px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+}
+.contactfooter3{
+   
+    display: flex;
+   padding: 0px 0px 0px 0px;
+   justify-content: center;
+   align-items: center;
+   
+}
+.contactfooter3one{
+    width: 80%;
+  
+}
+@media screen and (min-width: 900px){
+    .contactfooter3two{
+        display: none;
+    }
+    .contacttablet{
+        display: none;
+    }
+    .mobcontact{
+        display: none;
+    }
+}
+@media (min-width: 522px) and (max-width:900px) { 
+    /*.contactfooter3one{
+        display: none;
+    }
+   .contact{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+   } 
+   .contact1st{
+    width: 100%;
+    height: 300px;
+   }
+   .contact1st img{
+    width: 100%;
+    height: 300px;
+}
+.contact2nd{
+ height: 300px;
+}
+.contact2ndd{
+height: 290px;
+margin: 10px 10px;
+}
+.contactheader{
+    height: 100px;
+}
+.contactheader1{
+    height: 40px;
+    font-size: 20px;
+}
+.contactheader2{
+    height:  20px;
+    font-size: 12px;
+}
+.contactfooter{
+    height: 150px;
+}
+.contactfooter1{
+ height: 40px;
+ font-size: 20px;
+}
+.contactfooter2{
+height: 20px;
+font-size: 12px;
+}
+.conttbutton{
+    height: 30px;
+}
+.contactmidle{
+    height: 50px;
+}
+.contactfooter3{
+    width: 80%;
+   display: flex;
+   
+}
+.contactfooter3two{
+    width: 100%;
+    padding: 0px 0px 0px 0px; 
+    
+   
+}*/
+.contact{
+    display: none;
+
+}
+.mobcontact{
+    display: none;
+}
+.contacttablet{
+    width: 100%;
+    height: 650px;
+}
+.tabletheadercontact{
+ width: 100%;
+ height: 300px;
+}
+.tabletheadercontact img {
+width: 100%;
+height: 300px;
+}
+.contacttablet2nd{
+    width: 100%;
+    height: 350px;
+   
+   
+    display: flex;
+    justify-content: center;
+}
+.contacttablet2ndd{
+    width: 80%;
+    height: 270px;
+     margin: 25px 0px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contacttabletheader{
+    width: 100%;
+    height: 80px;
+}
+.contacttabletheader1{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    height: 40px;
+}
+.contacttabletheader2{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 450;
+    height: 40px;
+}
+.contacttabletmidle{
+    align-items: center;
+    width: 100%;
+    height: 100px;
+   }
+.contttabletbutton{
+       background-color: #34B628;
+       height: 34px;
+       width: 165px;
+       border-radius: 6px;
+       color: #fff;
+       border: none;
+       cursor: pointer;
+       font-weight: 500;
+       font-size: 14px;
+   }
+   .contacttabletfooter{
+    width: 100%;
+    height: 160px;
+   
+}
+.contacttabletfooter1{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    height: 30px;
+}
+.contacttabletfooter2{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 450;
+    height: 30px;
+}
+.contacttabletfooter3{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.contacttabletfooter3one{
+    width: 80%;
+ 
+}
+}
+@media screen and (max-width: 522px){
+    .contact{
+        display: none;
+    }
+    .contacttablet{
+        display: none;
+    }
+    .mobcontact{
+        width: 100%;
+        height: 650px;
+    }
+    .mobheadercontact{
+        width: 100%;
+        height: 300px;
+    }
+    .mobheadercontact img{
+        width: 100%;
+         height: 300px;
+    }
+    .contactmob2nd{
+        width: 100%;
+        height: 350px;
+       
+        
+        display: flex;
+        justify-content: center;
+    }
+    .contactmob2ndd{
+        width: 80%;
+        height: 270px;
+         margin: 25px 0px;
+        background-color: #f5f5f5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contactmobheader{
+        width: 100%;
+        height: 80px;
+    }
+    .contactmobheader1{
+        width: 100%;
+        font-size: 18px;
+        font-weight: 500;
+        height: 40px;
+    }
+    .contactmobheader2{
+        width: 100%;
+        font-size: 15px;
+        font-weight: 450;
+        height: 40px;
+    }
+    .contactmobmidle{
+        align-items: center;
+        width: 100%;
+        height: 100px;
+       }
+    .conttmobbutton{
+           background-color: #34B628;
+           height: 34px;
+           width: 345px;
+           border-radius: 6px;
+           color: #fff;
+           border: none;
+           cursor: pointer;
+           font-weight: 500;
+           font-size: 14px;
+       }
+       .contactmobfooter{
+        width: 100%;
+        height: 160px;
+       
+    }
+    .contactmobfooter1{
+        width: 100%;
+        font-size: 18px;
+        font-weight: 500;
+        height: 40px;
+    }
+    .contactmobfooter2{
+        width: 100%;
+        font-size: 15px;
+        font-weight: 450;
+        height: 30px;
+    }
+    .contactmobfooter3{
+        width: 100%; 
+        height: 60px;
+        display: flex;
+      justify-content: center;
+    }
+    .contactmobfooter3one{
+        width: 90%;
+     
+    } 
+    .bisend{
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        background-color: gray;
+        padding: 4px 10px 4px 10px;
+        border-radius: 0px 5px 5px 0px;
+    }   
+}

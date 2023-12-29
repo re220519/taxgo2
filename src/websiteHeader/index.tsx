@@ -3,7 +3,7 @@ import Navbar from '../component/navbar';
 import header from '../asset/header.jpg';
 import header1 from '../asset/header1.jpg';
 import './style.scss';
-import taxgologo from '../asset/taxgo logo.png';
+import taxgollogo from '../asset/taxgollogo.png';
 
 /*import logomobile  from '../asset/logomobile.png';*/
 function WebsiteHeader() {
@@ -38,7 +38,7 @@ function WebsiteHeader() {
                </div>
              <br />
                  <div className='homeScreen-Txt1'>
-                <img className="img-fluid" src={taxgologo} alt="" />
+                <img className="img-fluid" src={taxgollogo} alt="" />
               </div>
                 <br />
              
@@ -56,14 +56,17 @@ function WebsiteHeader() {
      {/* <WebsiteFooter /> */}
      </div>
      <div className='homeScreen1'>
+     
         <div className='homeScreen2'>
-            <div className='NavbarContainer'>
+        <div className='NavbarContainer'>
                <Navbar />
             </div>
             <div className='imagecontainer'>
+             
             <img className='homeScreen-carousalImg1' src={header1} alt=" "/>
             </div>
             <div className='homeScreen3'>
+            
                 <div className='homeScreen4'>
                     <div className='homeScreen5'>
                     <div className='homeScreen6'>
@@ -80,14 +83,15 @@ function WebsiteHeader() {
                 <div className='mobileWe'>
                     <div className='first'>WE ADVICE BUSINESS </div>
                     <div className='second'>Expert Financial Advice <br />and Consultancy</div>
-                   <div className='third'>
-                   <button className='contact'>Contact Us</button>
+                   <div className='third5'>
+                   <button className='contact5'>Contact Us</button>
                    </div>
                     
                 </div>
             </div>
         </div>
      </div>
+     
         </>
   );
 }
