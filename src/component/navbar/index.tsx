@@ -8,7 +8,13 @@ import { SiWinamp } from "react-icons/si";
 import {  Drawer } from 'antd';
 import { CloseCircleOutlined } from '@ant-design/icons';
 import logomobile from '../../asset/logomobile.png';
+import { useNavigate } from "react-router-dom";
+import HomeScreen from '../HomeScreen';
+import ServiceScreen from '../../ServiceScreen';
+
 function Navbar() {
+  const navigation = useNavigate();
+  
     const [open, setOpen] = useState(false); 
     
 
@@ -28,12 +34,12 @@ function Navbar() {
     </div>
     <div className='Menu'>
         <div className='Menu1'>
-           <div>HOME</div>
-            <div>SERVICES</div>
-            <div>PRICING</div>
-            <div>CONTACT</div>
-            <div>SIGN IN</div>
-            <div>REGISTER</div>
+           <div className='hom' onClick={() => navigation("/")}>HOME</div>
+            <div className='servic' onClick={() => navigation("/ServiceScreen")}>SERVICES</div>
+            <div className='pricing' >PRICING</div>
+            <div className='cont'>CONTACT</div>
+            <div className='sin'>SIGN IN</div>
+            <div className='reg'>REGISTER</div>
         </div>
     </div>
     <div className='Socialmedia'>
@@ -49,7 +55,7 @@ function Navbar() {
             </div>
         </div>
     </div>
-    <div className='mobile'><img  className="" src={logomobile} alt='' /></div>
+    <div className='mobbile'><img  className="mobbileimg" src={logomobile} alt='' /></div>
     <div className="simenu" onClick={()=>setOpen(true) }><SiWinamp  style={{ backgroundColor: 'yellow', borderRadius: '50%', padding: '4px', }}/> </div>
     
    </div>

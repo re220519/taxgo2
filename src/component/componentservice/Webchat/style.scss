@@ -1,0 +1,399 @@
+.webchatcontainer1{
+width: 100%;
+height: 500px;
+background-color: #F5F5F5;
+}
+.webchatcontainer2{
+width: 100%;
+height: 500px;
+}
+.web1{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center; 
+    word-spacing: 4px;
+ }
+ .web11{
+     width: 29%;
+     height: 10px;
+     background-color: #FFBc49;
+     transform: skew(30deg);
+     padding: 0px 0px 29px 0px;
+ }
+ .web11 p{
+     width: 100%;
+     font-size: 13px;
+     font-weight: bold;
+     transform: skew(-30deg);
+     text-align: center;
+     height: 10px;
+    
+     font-family: Montserrat;
+ }
+ .web2{
+     width: 100%;
+    height: 60px;
+   
+     font-weight: 700;
+     font-size: 40px;
+      color: #34B628;
+    padding: 17px 0px 0px 0px;
+ }
+ .web3{
+     width: 100%;
+     height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+ }
+ .webchatthree{
+   width:70%;
+   
+    height: 290px;
+ }
+ .webchat1,.webchat2,.webchat3,.webchat4{
+width: 100%;
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px dashed grey;
+margin: 10px 0px;
+ }
+ .webbchat1,.webbchat2,.webbchat3,.webbchat4{
+    width: 90%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+   padding: 50px 0px 0px 0px;
+ }
+ 
+ @media screen and (min-width: 900px){
+    .webtextmob{
+        display: none;
+     }
+ }
+ @media (min-width: 700px) and (max-width:900px) {
+    .webtextmob{
+        display: none;
+     }
+    .webchatcontainer1{
+        width: 100%;
+        height: 450px;
+        }
+        .webchatcontainer2{
+        width: 100%;
+        height: 450px;
+        }
+        .web1{
+            width: 100%;
+            height: 40px;
+            display: flex;
+            
+            justify-content: center; 
+            word-spacing: 3px;
+           
+         }
+         .web11{
+             width: 40%;
+             height: 10px;
+             background-color: #FFBc49;
+             transform: skew(30deg);
+             padding: 0px 0px 29px 0px;
+         }
+         .web p{
+             width: 100%;
+             font-size: 10px;
+             font-weight: bold;
+             transform: skew(-30deg);
+             text-align: center;
+             height: 10px;
+            
+             font-family: Montserrat;
+         }
+         .web2{
+             width: 100%;
+            height: 60px;
+            
+             font-weight: 700;
+             font-size: 35px;
+              color: #34B628;
+            padding: 19px 0px 0px 0px;
+         }
+         .web3{
+             width: 100%;
+             height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+         }
+         .webchatthree{
+           width:90%;
+          
+            height: 250px;
+         }
+         .webchat1,.webchat2,.webchat3,.webchat4{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px dashed grey;
+        margin: 10px 0px;
+         }
+         .webbchat1,.webbchat2,.webbchat3,.webbchat4{
+            width: 90%;
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+           padding: 50px 0px 0px 0px;
+         }
+ }
+ @media (min-width: 522px) and (max-width:700px) {
+    .webtextmob{
+        display: none;
+     }
+    .webchatcontainer1{
+        width: 100%;
+        height: 450px;
+        }
+        .webchatcontainer2{
+        width: 100%;
+        height: 450px;
+        }
+        .web1{
+            width: 100%;
+            height: 40px;
+            display: flex;
+            font-size: 20px;
+            justify-content: center; 
+            word-spacing: 4px;
+         }
+         .web11{
+             width: 43%;
+             height: 10px;
+             background-color: #FFBc49;
+             transform: skew(30deg);
+             padding: 0px 0px 29px 0px;
+         }
+         .web11 p{
+             width: 100%;
+             font-size: 10px;
+             font-weight: bold;
+             transform: skew(-30deg);
+             text-align: center;
+             height: 10px;
+            
+             font-family: Montserrat;
+         }
+         .web2{
+             width: 100%;
+            height: 50px;
+           
+             font-weight: 700;
+             font-size: 32px;
+              color: #34B628;
+            padding: 0px 0px 0px 0px;
+         }
+         .web3{
+             width: 100%;
+             height: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+         }
+         .webchatthree{
+           width:90%;
+          
+            height: 300px;
+         }
+         .webchat1,.webchat2,.webchat3,.webchat4{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px dashed grey;
+        margin: 10px 0px;
+         }
+         .webbchat1,.webbchat2,.webbchat3,.webbchat4{
+            width: 90%;
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+           padding: 50px 0px 0px 0px;
+         }
+ }
+ @media (min-width: 400px) and (max-width:522px) {
+    .webtext{
+        display: none;
+    }
+    .webchatcontainer1{
+        width: 100%;
+        height: 350px;
+        padding: 40px 0px 0px 0px;
+        }
+        .webchatcontainer2{
+        width: 100%;
+        height: 350px;
+        }
+        .web1{
+            width: 100%;
+            height: 40px;
+            display: flex;
+            font-size: 20px;
+            justify-content: center; 
+            word-spacing: 4px;
+         }
+         .web11{
+             width: 49%;
+             height: 10px;
+             background-color: #FFBc49;
+             transform: skew(30deg);
+             padding: 0px 0px 29px 0px;
+         }
+         .web11 p{
+             width: 100%;
+             font-size: 10px;
+             font-weight: bold;
+             transform: skew(-30deg);
+             text-align: center;
+             height: 10px;
+            
+             font-family: Montserrat;
+         }
+         .web2{
+             width: 100%;
+            height: 40px;
+           
+             font-weight: 700;
+             font-size: 25px;
+              color: #34B628;
+            padding: 0px 0px 0px 0px;
+         }
+         .web3{
+             width: 100%;
+             height: 270px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+         }
+         .webchatthree{
+           width:90%;
+          
+            height: 250px;
+         }
+         .webchat1,.webchat2,.webchat3,.webchat4{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px dashed grey;
+        margin: 10px 0px;
+         }
+         .webbchat1,.webbchat2,.webbchat3,.webbchat4{
+            width: 90%;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+           padding: 10px 0px 0px 0px;
+         }
+.webtextmob{
+    width: 100%;
+    font-size: 15px;
+    text-align: left;
+}
+
+ }
+ @media screen and (max-width: 400px){
+    .webtext{
+        display: none;
+    }
+    .webchatcontainer1{
+        width: 100%;
+        height: 350px;
+        padding: 40px 0px 0px 0px;
+        }
+        .webchatcontainer2{
+        width: 100%;
+        height: 350px;
+        }
+        .web1{
+            width: 100%;
+            height: 40px;
+            display: flex;
+            font-size: 17px;
+            justify-content: center; 
+            word-spacing: 4px;
+         }
+         .web11{
+             width: 79%;
+             height: 5px;
+             background-color: #FFBc49;
+             transform: skew(30deg);
+             padding: 0px 0px 29px 0px;
+         }
+         .web11 p{
+             width: 100%;
+             font-size: 8px;
+             font-weight: bold;
+             transform: skew(-30deg);
+             text-align: center;
+             height: 10px;
+            
+             font-family: Montserrat;
+         }
+         .web2{
+             width: 100%;
+            height: 40px;
+           
+             font-weight: 700;
+             font-size: 23px;
+              color: #34B628;
+            padding: 0px 0px 0px 0px;
+         }
+         .web3{
+             width: 100%;
+             height: 270px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+         }
+         .webchatthree{
+           width:90%;
+           
+            height: 250px;
+           
+         }
+         .webchat1,.webchat2,.webchat3,.webchat4{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+         border-radius: 5px;
+        border: 1px solid grey;
+       margin: 10px 0px;
+         }
+         .webbchat1,.webbchat2,.webbchat3,.webbchat4{
+            width: 90%;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+           padding: 10px 0px 0px 0px;
+         }
+.webtextmob{
+    width: 100%;
+    font-size: 13px;
+    text-align: left;
+}
+
+  }

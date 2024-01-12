@@ -1,0 +1,477 @@
+.account-container1{
+    width: 100%;
+    height: 700px;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+   
+    padding: 70px 0px 0px 0px;
+}
+.account-container2{
+    width: 70%;
+    height: 700px;
+  
+    
+}
+.account1{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+   }
+.account11{
+    width: 48%;
+    background-color: #FFBc49;
+    transform: skew(-30deg);
+  height: 10px;
+   padding: 0px 0px 29px 0px;
+}
+.account11 p{
+    width: 100%;
+    font-size: 13px;
+    font-weight: bold;
+    transform: skew(30deg);
+    text-align: center;
+    height: 10px;
+    font-family: Montserrat;
+}
+
+.account2{
+    width: 100%;
+    height: 100px;
+    
+    font-weight: 700;
+    font-size: 40px;
+    color: #34B628
+}
+.worksimage1 {
+    width: 100%;
+    height: 250px;
+}
+.workss1 img {
+    width: 100%;
+    height: 250px;
+}
+.account3{
+width: 100%;
+height: 500px;
+}
+.workss,.sales{
+    width: 100%;
+    height: 250px;
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.workss1,.sales1 {
+    width: 100%;
+
+}
+.worksimage1,.salesimage2 {
+    width: 100%;
+    
+}
+.workss2,.sales2{
+    width: 100%;
+    display: flex;
+  justify-content: right;
+}
+.worksstwo{
+    width: 90%;
+    height: 210px;
+
+line-height: 0px;
+padding: 0px 0px 30px 0px;
+}
+.salesone{
+    width: 90%;
+    height: 210px;
+
+line-height: 0px;
+}
+
+.text{
+    width: 100%;
+    font-size: 5px;
+    text-align: left;
+  height: 10px;
+
+}
+.para{
+    
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    height: 70px;
+}
+@media screen and (min-width: 900px){
+    .tabaccount-container1{
+        display: none; 
+     }
+     .mobaccount-container1{
+        display: none;
+    } 
+}
+@media (min-width: 700px) and (max-width:900px) {
+    .account-container1{
+        display: none;
+    }
+    .mobaccount-container1{
+        display: none;
+    }
+    .tabaccount-container1{
+     width: 100%;
+     height: 800px;
+     background-color: #F5F5F5;
+    }
+    .tabaccount-container2{
+     width: 100%;
+     height: 800px;
+    }
+    .tabaccount1{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+    }
+    .tabaccount11{
+        width: 48%;
+    background-color: #FFBc49;
+    transform: skew(-30deg);
+  height: 10px;
+   padding: 0px 0px 17px 0px;
+    }
+ .tabaccount11 p{
+        width: 100%;
+        font-size: 10px;
+        font-weight: bold;
+        transform: skew(30deg);
+        text-align: center;
+        height: 10px;
+        font-family: Montserrat;
+    }
+.tabaccount2{
+        width: 100%;
+        height: 100px;
+        
+        font-weight: 700;
+        font-size: 30px;
+        color: #34B628
+    }
+ .tabaccount3{
+width: 100%;
+height: 500px;
+    }
+    .tabworkscontainer{
+        width: 90%;
+       
+    }
+    .tabworks,.tabworkss{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+.tabaccountthree{
+    width: 100%;
+display: flex;
+justify-content: center;
+}
+.tabworks1,.tabworks2{
+    width: 100%;
+}
+.tabworksimage1{
+    width: 100%;
+   
+}
+.tabworkks{
+    width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px; 
+}
+.tabworksone{
+    width: 100%;
+
+}
+.tabworkstwo{
+    width: 100%;
+}
+.tabpara{
+width: 100%;
+font-family: Montserrat;
+    text-align: left;
+    font-size: 15px;
+    height: 70px;
+    line-height: 1.3;
+}
+.tabtext{
+width: 100%;
+font-family: Montserrat;
+font-size: 4px;
+text-align: left;
+height: 10px;
+}
+ }
+ @media (min-width: 522px) and (max-width:700px) {
+    .mobaccount-container1{
+        display: none;
+    }
+    .account-container1{
+        display: none;
+    }
+    .tabaccount-container1{
+     width: 100%;
+     height: 760px;
+     background-color: #F5F5F5;
+    }
+    .tabaccount-container2{
+     width: 100%;
+     height: 760px;
+    }
+    .tabaccount1{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+    }
+    .tabaccount11{
+        width: 48%;
+    background-color: #FFBc49;
+    transform: skew(-30deg);
+  height: 10px;
+   padding: 0px 0px 17px 0px;
+    }
+ .tabaccount11 p{
+        width: 100%;
+        font-size: 10px;
+        font-weight: bold;
+        transform: skew(30deg);
+        text-align: center;
+        height: 10px;
+        font-family: Montserrat;
+    }
+.tabaccount2{
+        width: 100%;
+        height: 100px;
+        
+        font-weight: 700;
+        font-size: 30px;
+        color: #34B628
+    }
+ .tabaccount3{
+width: 100%;
+height: 500px;
+    }
+    .tabworkscontainer{
+        width: 90%;
+       
+    }
+    .tabworks,.tabworkss{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+.tabaccountthree{
+    width: 100%;
+display: flex;
+justify-content: center;
+}
+.tabworks1,.tabworks2{
+    width: 100%;
+}
+.tabworksimage1{
+    width: 100%;
+   
+}
+.tabworkks{
+    width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px; 
+}
+.tabworksone{
+    width: 100%;
+
+}
+.tabworkstwo{
+    width: 100%;
+}
+.tabpara{
+width: 100%;
+font-family: Montserrat;
+    text-align: left;
+    font-size: 13px;
+    height: 70px;
+    line-height: 1.2;
+}
+.tabtext{
+width: 100%;
+font-size: 2px;
+text-align: left;
+height: 10px;
+font-family: Montserrat;
+
+}
+ }
+ @media (min-width: 400px) and (max-width:522px) {
+    .account-container1{
+        display: none;
+    }
+    .tabaccount-container1{
+        display: none;
+    }
+    .mobaccount-container1{
+        width: 100%;
+        height: 1050px;
+    }
+    .mobaccount-container2{
+        width: 100%;
+        height: 1050px;
+    }
+    .mobaccount1{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+    }
+    .mobaccount11{
+        width: 73%;
+    background-color: #FFBc49;
+    transform: skew(-30deg);
+  height: 30px;
+   padding: 0px 0px 17px 0px;
+    }
+ .mobaccount11 p{
+        width: 100%;
+        font-size: 13px;
+        font-weight: bold;
+        transform: skew(30deg);
+        text-align: center;
+        height: 30px;
+        font-family: Montserrat;
+        word-spacing: 6px;
+    }
+    .mobaccount2{
+        width: 100%;
+        height: 50px;
+        
+        font-weight: 700;
+        font-size: 22px;
+        color: #34B628
+    }
+ .mobaccount3{
+width: 100%;
+height: 950px;
+display: flex;
+justify-content: center;
+    }
+    .mobaccountthree{
+        width: 90%;
+        height: 950px;
+
+            } 
+.mobwork1{
+                width: 100%;
+            }
+            .mobworksimage1{
+width: 100%;
+            }
+            .mobpara{
+                width: 100%;
+                font-family: Montserrat;
+                    text-align: left;
+                    font-size: 15px;
+                    height: 70px;
+                    line-height: 1.3;
+                }
+                .mobtext{
+                width: 100%;
+                font-family: Montserrat;
+                font-size: 4px;
+                text-align: left;
+                height: 10px;
+                }
+
+
+ }
+ @media screen and (max-width: 400px){
+    .account-container1{
+        display: none;
+    }
+    .tabaccount-container1{
+        display: none;
+    }
+    .mobaccount-container1{
+        width: 100%;
+        height: 920px;
+    }
+    .mobaccount-container2{
+        width: 100%;
+        height: 920px;
+    }
+    .mobaccount1{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+    }
+    .mobaccount11{
+        width: 48%;
+    background-color: #FFBc49;
+    transform: skew(-30deg);
+  height: 10px;
+   padding: 0px 0px 17px 0px;
+    }
+ .mobaccount11 p{
+        width: 100%;
+        font-size: 8px;
+        font-weight: bold;
+        transform: skew(30deg);
+        text-align: center;
+        height: 10px;
+        font-family: Montserrat;
+    }
+    .mobaccount2{
+        width: 100%;
+        height: 50px;
+        
+        font-weight: 700;
+        font-size: 18px;
+        color: #34B628
+    }
+ .mobaccount3{
+width: 100%;
+height: 800px;
+display: flex;
+justify-content: center;
+    }
+    .mobaccountthree{
+        width: 90%;
+        height: 800px;
+background-color: aqua;
+            } 
+.mobwork1{
+                width: 100%;
+            }
+            .mobworksimage1{
+width: 100%;
+            }
+            .mobpara{
+                width: 100%;
+                font-family: Montserrat;
+                    text-align: left;
+                    font-size: 12px;
+                    height: 40px;
+                    line-height: 1.1;
+                }
+                .mobtext{
+                width: 100%;
+                font-family: Montserrat;
+                font-size: 3px;
+                text-align: left;
+                height: 10px;
+                }        
+ }
+

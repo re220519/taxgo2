@@ -26,7 +26,11 @@
    
     
 }
+.hom,.servic,.pricing,.sin,.reg,.cont{
+   cursor: pointer;
+}
 .Menu1{
+    width: 100%;
    
 }
 .Socialmedia{
@@ -35,6 +39,7 @@
     height: 80px;
     
 }
+
 .button .button1{
    width: 100%;
    justify-content: center;
@@ -63,6 +68,7 @@
     justify-content: space-around;
     font-size: 13px;
 }
+
 .socialmedia{
     width: 100%;
    justify-content: center;
@@ -75,11 +81,12 @@
    height: 80px;
 }
 .en{
-   
+   width: 100%;
     align-items: center;
     text-align: center;
     font-size: 10px;
 }
+
 .simenu{
 @media screen and (min-width: 900px){
    display: none;    
@@ -120,7 +127,7 @@
     text-align: center;
 }
 @media screen and (min-width: 522px) { 
-    .mobile{
+    .mobbile{
         display: none;
     }
     
@@ -129,4 +136,26 @@
 .Button{
     display: none;
 }
+.simenu{
+    width: 100%;
+    padding: 20px 0px 0px 0px;
 }
+}
+/* Add the following CSS adjustments */
+
+/* Add the following CSS adjustments for better responsiveness */
+
+@media screen and (max-width: 400px) {
+    .Navbarcontainer{
+        width: 100%;
+    }  
+  }
+  @media screen and (max-width: 900px) { 
+    .Navbarcontainer {
+        position: relative;
+    }
+
+   
+}
+
+  

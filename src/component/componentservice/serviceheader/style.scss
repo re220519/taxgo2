@@ -1,0 +1,531 @@
+.serviceheadercontainer1{
+    width: 100%;
+    height: 650px;
+    
+}
+.serviceheadercontainer2{
+    width: 100%;
+    height: 650px;
+}
+.serviceheadernav{
+    width: 100%;
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px; 
+    z-index: 2; 
+    
+}
+.serviceimagecontainer{
+    width: 100% ;
+    height: 650px;
+
+}
+.servicescreen-image{
+    height: 650px;
+    width: 100%;
+    object-fit: cover;
+}
+.servicescreen1{
+    width: 100%;
+  
+    height: 650px;
+    position: absolute;
+    top: 0;
+   
+}
+.servicescreen2{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: left;
+    align-items: center;  
+}
+.servicescreen3{
+    width: 70%;
+   
+    padding: 60px 0px 0px 0px;
+    height: 130px;
+}
+.servicescreen4{
+    width: 100%;
+    height: 80%;
+justify-content: center;
+     
+}
+.servicetext1{
+   
+    height: 25px;
+   
+   width: 50%;
+    text-align: left;
+ 
+}
+.servicetextt1{
+    width: 100%;
+    color: #878F86;
+   height: 25px;
+   font-size: 13px;
+    font-family:  Montserrat;
+    font-weight:300;
+     display: flex;
+    justify-content: center;
+   
+}
+.servicetextt2{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+}
+.servicetext2{
+    color: black;
+    height: 110px;
+    font-size: 28px;
+    font-family: 'Montserrat' ,sans-serif;
+    font-weight: 700;
+   width: 50%;
+  
+  text-align: left;
+    
+
+}
+.servicbutton{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+  
+    
+}
+.srvcbutn{
+width: 50%;
+display: flex;
+justify-content: left;
+
+}
+.servicebutons{
+    background-color: #34B628;
+height: 33px;
+width: 40%;
+border-radius: 6px;
+color: #fff;
+border: none;
+cursor: pointer;
+font-weight: 500;
+font-size: 11px;
+line-height: 1;
+}
+@media screen and (min-width: 900px){
+ .serviccetext1{
+    display: none;
+ } 
+ .servicemobcontainer{
+    display: none;
+ }
+ .serviceheadercontainer1{
+    width: 100%;
+    height: 650px;
+    
+}
+.serviceheadercontainer2{
+    width: 100%;
+    height: 650px;
+}
+.serviceheadernav{
+    width: 100%;
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px; 
+    z-index: 2; 
+    
+}
+.serviceimagecontainer{
+    width: 100% ;
+    height: 650px;
+
+}
+.servicescreen-image{
+    height: 650px;
+    width: 100%;
+    object-fit: cover;
+}
+.servicescreen1{
+    width: 100%;
+  
+    height: 650px;
+    position: absolute;
+    top: 0;
+   
+}
+.servicescreen2{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: left;
+    align-items: center;  
+}
+.servicescreen3{
+    width: 70%;
+  
+    padding: 60px 0px 0px 0px;
+    height: 130px;
+}
+.servicescreen4{
+    width: 100%;
+    height: 80%;
+justify-content: center;
+     
+}
+.servicetext1{
+   
+    height: 30px;
+   
+   width: 50%;
+    text-align: left;
+ 
+}
+.servicetextt1{
+    width: 100%;
+    color: #878F86;
+   height: 30px;
+   font-size: 11px;
+    font-family:  Montserrat;
+    font-weight:300;
+     display: flex;
+    justify-content: center;
+   
+}
+.servicetextt2{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+.servicetext2{
+    color: black;
+    height: 120px;
+    font-size: 28px;
+    font-family: 'Montserrat' ,sans-serif;
+    font-weight: 700;
+   width: 50%;
+  
+  text-align: left;
+    
+
+}
+.servicbutton{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+  
+    
+}
+.srvcbutn{
+width: 50%;
+display: flex;
+justify-content: left;
+
+}
+.servicebutonsmob1{
+    background-color: #34B628;
+height: 33px;
+width: 40%;
+border-radius: 6px;
+color: #fff;
+border: none;
+cursor: pointer;
+font-weight: 500;
+font-size: 11px;
+line-height: 1;
+}
+  
+}
+@media (min-width: 700px) and (max-width:900px) { 
+ .servicemobcontainer{
+  display: none;
+    }
+.servicetext1{
+    display: none;
+}
+.serviceheadercontainer1{
+    height: 500px;
+    
+}
+.serviceheadercontainer2{
+    height: 500px;
+}
+.servicescreen1{
+    height: 500px;
+}
+.servicescreen2{
+    height: 400px;
+}
+.serviceimagecontainer{
+    height: 400px;
+}
+.servicescreen-image{
+    height: 400px;
+}
+.servicetextt1{
+    height: 38px;
+}
+.serviccetext1{
+  width:50%;
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  height: 38px;
+}
+.servicetext2{
+    font-size: 24px;
+}
+.servicebutons{
+    font-size: 9px;
+}
+}
+@media (min-width: 522px) and (max-width:700px) { 
+    .serviceheadercontainer1{
+        height: 500px;
+        
+    }
+    .servicemobcontainer{
+        display: none;
+    }
+    .serviceheadercontainer2{
+        height: 500px;
+    }
+    .servicescreen1{
+        height: 500px;
+    }
+    .servicescreen2{
+        height: 400px;
+    }
+    .serviceimagecontainer{
+        height: 400px;
+    }
+    .servicescreen-image{
+        height: 400px;
+    }
+    .servicetext1{
+        display: none;
+       
+    }
+    .servicetextt1{
+        height: 38px;
+        font-size: 10px;
+    }
+    .serviccetext1{
+      width:50%;
+      display: flex;
+      justify-content: left;
+      text-align: left;
+      height: 38px;
+    }
+    .servicetextt2{
+        height: 75px;
+    }
+    .servicetext2{
+        font-size: 17px;
+        height: 75px;
+    }
+    .servicebutons{
+        width: 45%;
+        font-size: 7px;
+        height: 28px;
+    }
+    }
+    
+@media (min-width: 400px) and (max-width:522px) {      
+    .serviceheadercontainer1{
+         display: none;
+          }
+          .servicemobcontainer{
+            width: 100%;
+            height: 650px;
+          }
+          .servicemobcontainer1{
+            width: 100%;
+            height: 650px;
+          }
+          .serviceheadernavmob{
+            width: 100%;
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px; 
+    z-index: 2; 
+          }
+          .servicemobcontainerheader{
+            width: 100%;
+            height: 100px;
+
+          } 
+          .serviceimagemobcontainer {
+            width: 100%;
+            height: 300px;
+           
+           display: flex;
+          }
+          .servicescreen-imagemob1 {
+            height: 300px;
+            width: 100%;
+           object-fit: cover;
+          
+          
+          }
+        .servicemobcontainer2{
+            width: 100%;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+        }  
+        .servicemobcontainer3{
+            width: 90%;
+            height: 250px;
+            
+        }
+        .servicemobcontainer4{
+            width: 100%;
+            height: 50px;
+            font-size: 18px;
+            color: #878F86;
+           font-family:  Montserrat;
+             font-weight:300;
+             word-spacing: 4px;
+             padding: 20px 0px 0px 0px;
+            
+        }
+        .servicemobcontainer5{
+            width: 100%;
+            height: 100px;
+            font-size: 26px;
+           
+            font-weight: 800;
+        }
+        .servicemobcontainer6{
+            width: 100%;
+            height: 50px;
+         
+                display: flex;
+               
+                justify-content: center;
+                padding: 20px 0px 0px 0px;
+                
+            }
+            .servicebuttonmob1{
+                
+                background-color: #34B628;
+                height: 33px;
+                width: 100%;
+                border-radius: 6px;
+                color: #fff;
+                border: none;
+                cursor: pointer;
+                font-weight: 500;
+                font-size: 11px;
+                line-height: 1;
+            }
+        }
+@media screen and (max-width: 400px){
+        
+
+
+    .serviceheadercontainer1{
+        display: none;
+         }
+         .servicemobcontainer{
+           width: 100%;
+           height: 600px;
+         }
+         .servicemobcontainer1{
+           width: 100%;
+           height: 600px;
+         }
+         .serviceheadernavmob{
+           width: 100%;
+  
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 70px; 
+   z-index: 2; 
+         }
+         .servicemobcontainerheader{
+           width: 100%;
+          
+           top: 0;
+           left: 0;
+           width: 100%;
+           height: 70px; 
+           z-index: 2; 
+         } 
+         .serviceimagemobcontainer {
+           width: 100%;
+           height: 300px;
+         
+          display: flex;
+         }
+         .servicescreen-imagemob1 {
+           height: 300px;
+           width: 100%;
+          object-fit: cover;
+         }
+       .servicemobcontainer2{
+           width: 100%;
+           height: 200px;
+           display: flex;
+           justify-content: center;
+       }  
+       .servicemobcontainer3{
+           width: 90%;
+           height: 200px;
+           
+       }
+       .servicemobcontainer4{
+           width: 100%;
+           height: 40px;
+           font-size: 12px;
+           color: #878F86;
+          font-family:  Montserrat;
+            font-weight:300;
+            word-spacing: 4px;
+            padding: 20px 0px 0px 0px;
+          
+       }
+       .servicemobcontainer5{
+           width: 100%;
+           height: 70px;
+           font-size: 22px;
+          
+           font-weight: 800;
+       }
+       .servicemobcontainer6{
+           width: 100%;
+           height: 50px;
+        
+               display: flex;
+              
+               justify-content: center;
+               padding: 20px 0px 0px 0px;
+               
+           }
+           .servicebuttonmob1{
+               
+               background-color: #34B628;
+               height: 33px;
+               width: 100%;
+               border-radius: 6px;
+               color: #fff;
+               border: none;
+               cursor: pointer;
+               font-weight: 500;
+               font-size: 11px;
+               line-height: 1;
+           }
+     }

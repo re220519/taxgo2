@@ -1,21 +1,20 @@
 import React from 'react';
-import Gallery from './component/gallery';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.scss';
-import WebsiteHeader from './websiteHeader';
-import Feature from './component/feature';
-import Works from './component/works/index';
-import Contact from './component/contact/index';
-import WebsiteFooter from './component/websiteFooter/index';
+import ServiceScreen from './ServiceScreen';
+import HomeScreen from './component/HomeScreen';
 function App() {
   return (
     <div className="App">
-      
-      <WebsiteHeader /> 
-        <Feature /> 
-        <Gallery />
-        <Works />
-        <Contact />
-        <WebsiteFooter />
+       <Router>
+        <Routes>
+          <Route path="/" element={<HomeScreen />} />
+          
+          <Route path="/ServiceScreen" element={<ServiceScreen />} />
+          
+        </Routes>
+      </Router>
+     
     </div>
   );
 }
