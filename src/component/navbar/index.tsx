@@ -36,7 +36,7 @@ function Navbar() {
         <div className='Menu1'>
            <div className='hom' onClick={() => navigation("/")}>HOME</div>
             <div className='servic' onClick={() => navigation("/ServiceScreen")}>SERVICES</div>
-            <div className='pricing' >PRICING</div>
+            <div className='pricing'  onClick={() => navigation("/PriceScreen")} >PRICING</div>
             <div className='cont'>CONTACT</div>
             <div className='sin'>SIGN IN</div>
             <div className='reg'>REGISTER</div>

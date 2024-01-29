@@ -1,0 +1,798 @@
+.priceheadercontainer1{
+  width: 100%;
+ height: 600px;
+ position: relative;
+}
+.priceheadercontainer2{
+   width: 100%;
+   height: 600px;
+   position: relative;
+}
+.priceheadernav{
+    width: 100%;
+   position: absolute;
+    top: 0;
+    left: 0;
+   height: 70px; 
+    z-index: 2; 
+}
+.priceheader1{
+    width: 100%;
+  
+    height: 650px;
+    position: absolute;
+    top: 0;
+   
+}
+.priceheader2{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+.priceheader3{
+    width: 70%;
+  
+    padding: 50px 0px 0px 0px;
+    height: 130px;
+ 
+}
+.priceheader4{
+width: 100%;
+height: 400px;
+text-align: center;
+align-content: center;
+}
+.pricetext1{
+  width: 100%;
+ 
+  font-size: 30px;
+  font-weight: 500;
+  color: #38CD2A;
+}
+.pricetext2{
+ width: 100%;
+ text-align: center;
+ padding: 0px 0px 0px 0px;
+ font-size: 15px;
+}
+.priceflex1{
+    width: 100%;
+    height: 400px;
+}
+.priceflex2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.priceflex3{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    
+    gap: 30px;
+    height: 450px;
+}
+.priceflex4{
+    width: 100%;
+}
+.column1{
+    width: 100%;
+    height: 400px;
+    padding: 100px 0px 0px 0px;
+}
+.columnone{
+width: 100%;
+border: 1px solid grey;
+
+height: 320px;
+border-radius: 15px;
+padding: 0px 0px 20px 0px;
+display: flex;
+justify-content: center;
+}
+.columnonepadding,.columnthreepadding{
+    width: 90%;
+
+
+}
+.columntwopadding{
+    width: 100%;
+}
+.columntwo{
+    width: 100%;
+   height: 330px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 20px 0px;
+}
+.columnthree{
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 15px;
+    
+    height: 320px;
+    padding: 0px 0px 20px 0px;
+    display: flex;
+    justify-content: center;  
+}
+.column2{
+width: 90%;
+height: 350px;
+padding: 0px 0px 0px 0px;
+background-color: #FFBC49;
+border-radius: 20px;
+margin-top: 60px;
+}
+.background{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.column3{
+width: 100%;
+height: 400px;
+
+padding: 100px 0px 0px 0px;
+
+}
+.checkbox{
+    width: 100%;
+   display: flex;
+    
+   align-items: center;
+
+}
+.checkbox1{
+    width: 100%;
+    height: 160px;
+   
+    padding: 30px 0px 0px 0px;
+    line-height: 1.7;
+}
+.checkbox2{
+    width: 100%;
+    height: 190px;
+   
+  padding: 20px 0px 0px 0px;
+    line-height: 1.7;
+}
+.checkicon{
+    flex: 0.5;
+    width: 100%;
+}
+.checktext{
+    width: 100%;
+    flex: 3.5;
+    font-size: 12px;
+    text-align: left;
+}
+.link1{
+    width: 100%;
+padding: 20px 0px 0px 0px;
+height: 50px;
+
+}
+.link2{
+width: 100%;
+background-color: grey;
+border-radius: 10px;
+color: white;
+}
+.rupee{
+    width: 100%;
+    font-weight: 500;
+    font-size: 20px;
+   
+    padding: 0px 0px 10px 0px;
+    height: 30px;
+}
+.rupe{
+    width: 100%;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 0px 0px 10px 0px;
+    height: 30px;  
+}
+.basic{
+    width: 100%;
+    
+    height: 10px;
+    padding: 20px 0px 0px 0px;
+}
+.basicc{
+    width: 100%;
+    height: 10px;
+    padding: 20px 0px 0px 0px;
+}
+.divder{
+    width: 100%;
+    
+   
+}
+.divdr{
+    width: 100%;
+    
+}
+.basic1{
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    
+    height: 90px;
+    line-height: 0.5px;
+
+
+}
+.bassic2{
+  width: 100%;
+  background-color: #FFBC49;
+  
+}
+.basic2{
+    width: 100%;
+    background-color: #38CD2A;
+    padding: 0px 0px 0px 0px;
+    height: 70px;
+   
+  
+text-align: center;
+
+}
+.getst{
+    width: 100%;
+    padding: 25px 0px 0px 0px;
+height: 50px;
+display: flex;
+justify-content: center;
+}
+.getstrted{
+width: 90%;
+background-color: #38CD2A;
+border-radius: 10px;
+color: white;
+}
+@media screen and (min-width: 900px) {
+    .tabprice{
+        display: none;
+    }
+    .mobpriceheader1{
+        display: none;
+    }
+}
+@media (min-width: 700px) and (max-width:900px) { 
+    .mobpriceheader1{
+        display: none;
+    }
+     .background{
+        display: none;
+     }
+     .tabprice{
+        width: 100%;
+     
+        border-radius: 20px;
+        padding: 50px 0px 0px 0px;
+        height: 350px;
+     }
+     .tabprice1{
+        width: 100%;
+        height: 350px;
+padding: 0px 0px 0px 0px;
+
+border-radius: 20px;
+
+     }
+    .fst{
+width: 100%;
+display: flex;
+justify-content: center;
+    }
+    .fstback{
+        width: 90%;
+        background-color: #FFBC49;
+        color: #FFBC49;
+        border-radius: 5px 5px 0px 0px;
+    }
+    .snd{
+        width: 100%;
+        display: flex;
+       border-radius: 20px;
+        background-color: #38CD2A;
+        justify-content: center;
+    }
+    .sndback{
+        width: 90%;
+       
+    }
+    .thrd{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .thrdback{
+        width: 90%;
+        background-color: #FFBC49;
+        border-radius: 0px 0px 5px 5px;
+    }
+    .priceflex1{
+width: 100%;
+    }
+    .priceflex2{
+width: 100%;
+    }
+
+    .priceflex3{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+       
+        gap: 30px;
+        height: 450px;
+    }
+    .priceheader3{
+        width: 90%;
+    }
+    .checktext{
+        font-size: 9px;
+    }
+    .checkbox1{
+        width: 100%;
+        height: 160px;
+     
+        padding: 30px 0px 0px 0px;
+        line-height: 1.7;
+    }
+    .checkbox2{
+        width: 100%;
+        height: 190px;
+       
+       background-color: #FFBC49;
+      padding: 10px 0px 0px 0px;
+        line-height: 1.7;
+    }
+      
+}
+@media (min-width: 522px) and (max-width:700px) { 
+    .mobpriceheader1{
+        display: none;
+    }
+    .background{
+        display: none;
+     }
+     .tabprice{
+        width: 100%;
+     
+        border-radius: 20px;
+        padding: 50px 0px 0px 0px;
+        height: 350px;
+     }
+     .tabprice1{
+        width: 100%;
+        height: 350px;
+padding: 0px 0px 0px 0px;
+
+border-radius: 20px;
+
+     }
+    .fst{
+width: 100%;
+display: flex;
+justify-content: center;
+    }
+    .fstback{
+        width: 100%;
+        background-color: #FFBC49;
+        color: #FFBC49;
+        border-radius: 5px 5px 0px 0px;
+    }
+    .snd{
+        width: 100%;
+        display: flex;
+       border-radius: 20px;
+        background-color: #38CD2A;
+        justify-content: center;
+    }
+    .sndback{
+        width: 90%;
+       
+    }
+    .thrd{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .thrdback{
+        width: 90%;
+        background-color: #FFBC49;
+        border-radius: 0px 0px 5px 5px;
+    }
+    .priceflex1{
+width: 100%;
+    }
+    .priceflex2{
+width: 100%;
+    }
+
+    .priceflex3{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+       
+        gap: 30px;
+        height: 450px;
+    }
+    .priceheader3{
+        width: 90%;
+    }
+    .checktext{
+        font-size: 9px;
+    }
+    .checkbox1{
+        width: 100%;
+        height: 160px;
+     
+        padding: 30px 0px 0px 0px;
+        line-height: 1.7;
+    }
+    .checkbox2{
+        width: 100%;
+        height: 190px;
+       
+       background-color: #FFBC49;
+      padding: 10px 0px 0px 0px;
+        line-height: 1.7;
+    }
+}
+@media (min-width: 400px) and (max-width:522px) { 
+    .priceheadercontainer1{
+        display: none;
+            }
+        .mobpriceheader1{
+         width: 100%;
+         position: relative;
+        }
+        .mobpriceheader2{
+         width: 100%;
+         position: relative;
+        }
+        .mobpriceheader3{
+        width: 100%;
+        top: 0;
+            left: 0;
+           height: 70px; 
+            z-index: 2; 
+        position: absolute;
+        }
+        .mobpriceheader4{
+           width: 100%; 
+        }
+        .pricescreen-image{
+            width: 100%;
+        }
+        .mobpriceheader5{
+            width: 100%;
+           height: 650px;
+            position: absolute;
+            top: 0;
+        }
+        .mobpriceheader6{
+            width: 100%;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+           flex-direction: column;
+           align-items: center;
+          
+        }
+        .mobpriceheader7{
+            width: 80%;
+            font-size: 18px;
+            color: #38CD2A;
+        }
+        .mobpriceheader8{
+            width: 80%;
+            font-size: 18px;
+        }
+        .mobview{
+        width: 100%;
+        height: 1000px;
+        
+        }
+        .mobview2{
+            width: 100%;
+            height: 300px;
+            display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        gap: 1;
+        }
+        .mobfirst{
+            width: 80%;
+           height: 300px;
+           
+           
+        }
+        .mobcolumn1,.mobcolumn2{
+            width: 100%;
+            height: 300px;
+        }
+        .mobcolumnone,.mobcolumntwo{
+            width: 100%;
+            height: 170px;
+        }
+        .mobcolumnonepadding,.mobcolumntwopadding{
+            width: 100%;
+            height: 170px;
+        }
+        .mobtabprice{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            padding: 50px 0px 0px 0px;
+        }
+        .mobtabprice1{
+            width: 80%;
+            border-radius: 20px;
+        }
+        .mobthird{
+            width: 100%;
+            height: 300px;
+          
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+        .mobcolumn3{
+           width: 80%;
+           height: 300px;
+        }
+        .mobcolumnthree{
+            width: 100%;
+            height: 170px;
+        }
+        .mobcolumnthreepadding{
+            width: 100%;
+            height: 170px;
+        }
+        .checkbox1{
+           width: 100%;
+        }
+        .basic1{
+            height: 50px;
+        }
+        .checkbox1{
+            height: 150px;
+           
+            padding: 5px 0px 0px 0px;
+        }
+        .checkbox2{
+            height: 150px;
+           
+            padding: 5px 0px 0px 0px;
+        }
+        .fst{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+                }
+                .fstback{
+                    width: 90%;
+                    background-color: #FFBC49;
+                    color: #FFBC49;
+                    border-radius: 5px 5px 0px 0px;
+                }
+                .snd{
+                    width: 100%;
+                    display: flex;
+                   border-radius: 20px;
+                    background-color: #38CD2A;
+                    justify-content: center;
+                }
+                .sndback{
+                    width: 90%;
+                   
+                }
+                .thrd{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                }
+                .thrdback{
+                    width: 90%;
+                    background-color: #FFBC49;
+                    border-radius: 0px 0px 5px 5px;
+                }
+                .link1{
+                    width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+                
+                }
+                .link2{
+                width: 90%;
+                }
+              
+}
+@media screen and (max-width: 400px) {
+.priceheadercontainer1{
+display: none;
+    }
+.mobpriceheader1{
+ width: 100%;
+ position: relative;
+}
+.mobpriceheader2{
+ width: 100%;
+ position: relative;
+}
+.mobpriceheader3{
+width: 100%;
+top: 0;
+    left: 0;
+   height: 70px; 
+    z-index: 2; 
+position: absolute;
+}
+.mobpriceheader4{
+   width: 100%; 
+}
+.pricescreen-image{
+    width: 100%;
+}
+.mobpriceheader5{
+    width: 100%;
+   height: 650px;
+    position: absolute;
+    top: 0;
+}
+.mobpriceheader6{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+   align-items: center;
+  
+}
+.mobpriceheader7{
+    width: 80%;
+    font-size: 8px;
+    color: #38CD2A;
+}
+.mobpriceheader8{
+    width: 80%;
+    font-size: 10px;
+}
+.mobview{
+width: 100%;
+height: 1000px;
+
+}
+.mobview2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+align-items: center;
+justify-content: center;
+
+gap: 1;
+}
+.mobfirst{
+    width: 80%;
+   height: 300px;
+   
+   
+}
+.mobcolumn1,.mobcolumn2{
+    width: 100%;
+    height: 300px;
+}
+.mobcolumnone,.mobcolumntwo{
+    width: 100%;
+    height: 170px;
+}
+.mobcolumnonepadding,.mobcolumntwopadding{
+    width: 100%;
+    height: 170px;
+}
+.mobtabprice{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 50px 0px 0px 0px;
+}
+.mobtabprice1{
+    width: 80%;
+    border-radius: 20px;
+}
+.mobthird{
+    width: 100%;
+    height: 300px;
+  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.mobcolumn3{
+   width: 80%;
+   height: 300px;
+}
+.mobcolumnthree{
+    width: 100%;
+    height: 170px;
+}
+.mobcolumnthreepadding{
+    width: 100%;
+    height: 170px;
+}
+.checkbox1{
+   width: 100%;
+}
+.basic1{
+    height: 50px;
+}
+.checkbox1{
+    height: 150px;
+   
+    padding: 5px 0px 0px 0px;
+}
+.checkbox2{
+    height: 150px;
+   
+    padding: 5px 0px 0px 0px;
+}
+.fst{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+        }
+        .fstback{
+            width: 90%;
+            background-color: #FFBC49;
+            color: #FFBC49;
+            border-radius: 5px 5px 0px 0px;
+        }
+        .snd{
+            width: 100%;
+            display: flex;
+           border-radius: 20px;
+            background-color: #38CD2A;
+            justify-content: center;
+        }
+        .sndback{
+            width: 90%;
+           
+        }
+        .thrd{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .thrdback{
+            width: 90%;
+            background-color: #FFBC49;
+            border-radius: 0px 0px 5px 5px;
+        }
+        .link1{
+            width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+        
+        }
+        .link2{
+        width: 90%;
+        }
+    
+}
+
+ 
